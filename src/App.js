@@ -1,6 +1,9 @@
 import logo from './logo.svg'
 import './App.css'
 
+import LogRocket from 'logrocket'
+LogRocket.init('znathy/my-project-name')
+
 function App() {
   return (
     <div className="App">
