@@ -3,6 +3,10 @@ import './App.css'
 
 import { useCookies } from 'react-cookie'
 
+import LogRocket from 'logrocket'
+LogRocket.init('znathy/my-project-name')
+
+
 function App() {
   const [cookies, setCookie] = useCookies(['name'])
 
